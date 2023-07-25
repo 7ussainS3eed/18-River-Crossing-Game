@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>River Crossing Game</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    </head>
+    <body>
+        <div class="content">
+            <div class="main">
+                <div class="play">
+                    <img src="imgs/start.png">
+                </div>
+                <button class="reload">
+                    <i class="fa-solid fa-arrow-rotate-right"></i>                   
+                </button>
+                <div class="left"></div>
+                <div class="rever"></div>
+                <div class="right"></div>
+                <div class="passed">
+                    <img src="imgs/passed.png">
+                    <button class="reload">
+                        <i class="fa-solid fa-arrow-rotate-right"></i>                   
+                    </button>
+                </div>
+                <div class="failed">
+                    <img src="imgs/failed.png">
+                    <button class="reload">
+                        <i class="fa-solid fa-arrow-rotate-right"></i>                   
+                    </button>
+                </div>
+            </div>
+            <img src="imgs/boat.png" class="boat">
+            <img src="imgs/grass.png" class="grass">
+            <img src="imgs/sheep.png" class="sheep">
+            <img src="imgs/wolf.png" class="wolf">
+            <div class="control">
+                <button class="boat-go">Go</button>
+                <button class="grass-move">Grass</button>
+                <button class="sheep-move">Sheep</button>
+                <button class="wolf-move">Wolf</button>
+            </div>
+            <div class="copy">Hussain Saeed
+                <i class="fa-regular fa-copyright"></i>2022
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
